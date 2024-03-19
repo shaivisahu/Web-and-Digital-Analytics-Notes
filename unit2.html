@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    
+    <BR>
+        <header>
+        <h1>UNIT 2</h1> <BR>
+
+    </header>
+    <section>
+        <h1> &nbsp; &nbsp;DOM</h1>
+        <p>
+            <abbr tittle ="Document Object Model"> &nbsp; &nbsp;DOM</abbr> is a programming interface for web documents. It represents the structure of a document as a tree of objects, where each object corresponds to a part of the document, such as elements, attributes, and text.
+              Key concepts of the DOM:
+              <ul>
+                <li><strong>Document: </strong>The top-level object that represents the entire HTML or XML document.</li>
+                <li><strong>Element:</strong>Represents an HTML or XML element in the document. Elements may contain attributes, text, and other elements.</li>
+                <li><strong>Nodes:</strong>The base type for all objects in the DOM. Nodes can be elements, text, comments, etc.</li>
+                <li><strong>Attribute:</strong> Represents an attribute of an element.</li>
+                <li><strong>Text: </strong>Represents the textual content within an element.</li>
+              </ul>
+            <h2>Creating DOM</h2>
+            Creating the Document Object Model (DOM) typically refers to manipulating the structure and content of an HTML document using JavaScript. The DOM represents the document as a tree of objects, where each object corresponds to an element, attribute, or piece of text in the HTML document.
+            Here's a simple example of creating a DOM element and adding it to the document using JavaScript:
+            <br>
+            <br>
+            <br>
+            <br>
+            <section>
+                <h2>Doctype in HTML</h2>
+                <P>
+                   <h4>1. Definition :</h4>
+                    <ul>
+                        <li>The<strong> HTML document type declaration</strong>, commonly known as DOCTYPE, is an essential instruction placed at the beginning of every HTML or XHTML document.</li>
+                        <li> It serves as an informational tag for web browsers, informing them about the version of HTML or XHTML used in the document.</li>
+                        <li>The <strong> DOCTYPE declaration</strong> is not an HTML element or tag; rather, it guides browsers on how to interpret the rest of the document.</li>
+                    </ul>
+                    <h4>2. Purpose and Importance:</h4>
+                    <ul>
+                        <li> <strong>Version Specification:</strong>The DOCTYPE helps browsers understand which version of HTML (or XHTML) the website adheres to. This knowledge ensures consistent rendering across different browsers.</li>
+                        <li><strong>Rendering Process: </strong>By providing the correct DOCTYPE, you ease the rendering process for browsers. They can apply the appropriate rules and standards to display the content accurately.</li>
+    
+                    </ul>
+                   <h4> 3. HTML5 DOCTYPE</h4>
+                    <ul>
+                        <li>In modern web development, the DOCTYPE declaration for HTML5 is straightforward</li>
+                        <li>This simple declaration indicates that the document follows the HTML5 standard.</li>
+                    </ul>
+                    <h4> 4. Older HTML Documents:</h4>
+                    <li>In older HTML documents (such as HTML 4 or XHTML), the DOCTYPE declaration was more complex. It had to refer to a Document Type Definition (DTD) specific to that version.</li>
+                   <h4> 5. Case Sensitivity:</h4>
+                   <ul>
+                    <li>The <strong>DOCTYPE declaration</strong> is not case-sensitive. </li>
+                </P>
+              <h2>Character Encoding</h2>
+                 <p>
+                    <h5> 1. HTML Character Sets and Encoding</h5>
+                      <ul>
+                        <li><strong>Character Set:</strong> A character set defines a mapping between characters (letters, symbols, and numbers) and their corresponding binary representations.</li>
+                        <li><strong>Character Encoding:</strong> It specifies how these characters are represented in bytes (binary data) for storage or transmission.</li>
+                        <li><strong>HTML Documents and Character Encoding :</strong>  
+                            <ol>
+                                <li>To display an HTML page correctly, web browsers need to know which character set to use.</li>
+                                <li> The character set is specified using the meta tag in the document’s head section.</li>
+                                <li>The most commonly used character encodings are UTF-8 and UTF-16.</li>  
+                            </ol></li>
+                    <h5> 2. UTF-8</h5>
+                       </ul>
+                       <li>
+                       <li><strong>Definition: </strong>UTF-8 (Unicode Transformation Format 8-bit) is a widely used character encoding.
+
+                       <li><strong>Compatibility :</strong>The first 128 characters of UTF-8 have the same binary values as ASCII, making ASCII text valid UTF-8.</li>
+                       <li>Advantages :
+                        <ul>
+                            <li>Covers almost all characters and symbols worldwide.</li>
+                            <li> Recommended by the HTML5 specification.</li>
+                        </ul>
+                       </li>
+                       <li><strong>Usage in HTML5 :</strong>
+                        <ol>
+                            <li>Specify UTF-8 in your HTML document</li>
+                        </ol>
+                    </ul>
+                    
+                    <h5>3. Other Character Sets</h5>
+                     <ul>
+                        <li><strong>ASCII: </strong>The first character encoding standard for the web, defining 128 characters including English letters, numbers, and special characters.</li>
+                        <li><strong>ANSI (Windows-1252):</strong>The original Windows character set, identical to ASCII for the first 127 characters.</li>
+                        <li><strong>ISO-8859-1:</strong> Default character set for HTML4, supporting 256 different character codes.</li>
+                        <li><strong></strong></li>
+                     </ul>
+                    <h5> 4. HTML Character Entities :</h5>
+                    <ul>
+                        <li>Reserved characters in HTML (like < and >) can be displayed using character entities.</li>
+                        <li> Examples :
+                            <ul>
+                                <li> &lt; represents <</li>
+                                <li>&gt; represents ></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h4> Script tag :</h4>
+                    The script tag is an HTML element used to embed or reference external scripts within an HTML document. It is commonly used to include JavaScript code, but it can also be used for other scripting languages.
+                    <h4> Link Tag :</h4>
+                    It seems like there might be a typo in your query. If you are referring to the "link" tag in HTML, it is used to link external resources, such as stylesheets or icon files, to an HTML document. 
+
+            </section>
+            </p>
+            <section>
+                <h2> Depreated Elements</h2>
+                <p>
+                    Deprecated elements in web development refer to HTML elements that have been officially discouraged or phased out by the World Wide Web Consortium (W3C), the organization responsible for developing and maintaining web standards. Developers are advised to avoid using deprecated elements and migrate to newer, recommended alternatives to ensure better compatibility, security, and adherence to current best practices.
+                    
+                    Here are a few examples of deprecated HTML elements as of my knowledge cutoff in January 2022:
+                    <ol>
+                        <li><strong>font :</strong>
+                            <ul>
+                                <li><strong>Deprecated in HTML4.01: </strong>The font element was used to define the font, color, and size of text. Instead, developers are encouraged to use CSS for styling.</strong></li>
+                            </ul></li>
+                        <li><strong>center : </strong>
+                            <ul>
+                            <li><strong>Deprecated in HTML4.01: </strong>The center element was used to center-align content on a webpage. CSS should be used for layout and positioning instead.</li>
+                            </ul></li>
+                        <li><strong> strike and s :</strong>
+                            <ul>
+                                <li><strong>Deprecated in HTML5:</strong>These elements were used for strikethrough text. The recommended way is to use the <em>del</em> element with CSS for styling.</li>
+                            </ul>
+                        <li><strong>acronym :</strong>
+                            <ul>
+                                <li><strong>Deprecated in HTML5:</strong>The <em>acronym</em> element was used to define an acronym. The recommended replacement is the <abbr> element.</li>
+                            </ul><li>
+                        <li><strong> frame , frameset, noframes :</strong>
+                            <ul>
+                                <li><strong>Deprecated in HTML5:</strong>Frames and framesets were used for creating a layout with multiple independent sections. Modern websites use more flexible and responsive layout techniques, such as CSS and HTML5 elements like <em>div</em>.</li>
+                            </ul></li>
+                        <li><strong>applet :</strong>
+                          <ul>
+                            <li><strong>Deprecated in HTML5: </strong>The <em>applet </em>element was used to embed Java applets. With the decline of Java applets and the rise of other technologies, this element is no longer supported in modern browsers</li>
+                          </ul></li>
+
+                    </ol>
+                </p>
+                <p>
+                    <h4> Section Tag : </h4>
+                    The section tag is used to define sections in an HTML document. It is a semantic HTML5 element that helps to structure and group related content.
+                    <h4> Article Tag :</h4>
+                    The article tag in HTML5 is used to define an independent, self-contained piece of content. It is often used for articles, blog posts, forum posts, news items, and other similar content that can be distributed and reused independently.
+                    <h4> Aside Tag :</h4>
+                    The aside tag in HTML is used to define content that is tangentially related to the content around it. It is often used for sidebars or content that is considered secondary or additional to the main content of the page. 
+                    <h4> Header Tag :</h4>
+                    The header tag in HTML5 is used to define the header section of a webpage. It typically includes elements such as the website's title, logo, navigation menu, and other introductory content.
+                    <h4> Footer Tag :</h4>
+                    The footer tag in HTML5 is used to define the footer section of a webpage. It typically includes information such as copyright notices, links to terms of service or privacy policies, and other footer-related content.
+                    <h4> Nav :</h4>
+                    The nav tag in HTML5 is used to define a navigation menu on a webpage. It is typically used to wrap around a list of links or navigation-related content. 
+                    <h4> Dialog Tag :</h4>
+                    The dialog tag in HTML5 is used to create a dialog box or modal within a web page. It allows developers to create interactive dialogs or pop-up windows that can display information, receive user input, or perform specific actions.
+                    <h4> Figure Tag :</h4>
+                    The figure tag in HTML is used to encapsulate any content that is referenced from the main content, typically images, diagrams, illustrations, videos, code snippets, or similar content. It is often used in conjunction with the <em>figcaption tag</em> to provide a caption for the content within the <em>figure.</em> 
+                    <h4> Web Form </h4>
+                    Web forms are essential for any website to obtain various types of information from visitors, which can be used for future purposes. It works in the same way that we use a paper form to gather or submit information. This lesson guides you on creating web forms and their various useful components, which allow you to collect and manage data easily and efficiently.
+                    <br>
+                    A Web Forms is a part of an HTML document containing HTML form elements such as input, select, checkboxes, radio, buttons, etc. Users typically complete a form by entering texts, selecting options, and modifying form elements before submitting the form for processing.
+                    <br>
+                    <h5> Need for Web Form </h5>
+                    Some web forms are commonly used, such as contact forms, user subscription forms, registration forms, etc. However, web forms may vary for every business, as their needs are different.<br>
+                    Common types of web forms are as follows:
+                    <ul>
+                        <li>Contact form</li>
+                        <li>Registration form</li>
+                        <li>Sign-in Form</li>
+                        <li>Lead generation form</li>
+                        <li> Order form</li>
+                        <li> Survey form</li>
+                        <li>Search form</li>
+                        <li> Email form</li>
+                    </ul>
+                   <h5> How to create forms in HTML? </h5>
+                   The form tag in HTML is used to define the form in an HTML document. This tag is a container for all other input elements used within this form tag to obtain user input.
+                   <h5>  Attributes of the HTML form Element </h5>
+                   The form element has two important attributes: the action and the method attributes. Here, the form action specifies the location where the form data will be submitted, and the form method specifies the HTTP method that is usually GET / POST. The various HTTP methods are:
+                   <ul>
+                    <li>GET</li>
+                    <li>POST</li>
+                    <li>PUT</li>
+                    <li>PATCH</li>
+                    <li>DELETE</li>
+                   </ul>
+                   <h5> What are HTML form elements?</h5>
+                   Different input types, such as text fields, checkboxes, radio buttons, submit buttons, etc., are used inside the form tag to obtain user inputs such as usernames, emails, passwords, etc. According to the input field type, these inputs are manually typed or selected by the user.
+
+                </p>
+            </section>
+            <footer>
+                <h3><a href="unit1.html">&lt;&lt;&lt;Privious Unit</a> <a href="unit3.html">Next Unit&gt;&gt;&gt;</a></h3>
+            </footer><br><br><br>
+
+
+    
+</body>
+</html>

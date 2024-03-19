@@ -1,0 +1,94 @@
+header{
+    text-align: center;
+}
+   
+section{
+    font-family: Arial, sans-serif;
+    margin:20;
+    padding:20;
+    background-color: #111e29;
+    text-decoration: solid;
+    color: whitesmoke;
+    border: 1px solid #ccc;
+    width: 1350px;
+    height: 1900px;
+
+}
+body{
+    background-color:#111e29;
+    color: whitesmoke;
+}
+footer{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: #ccc;
+    color:whitesmoke;
+    text-decoration: solid;
+    text-size-adjust: 200px;
+    text-decoration-color: cornsilk;
+}
+a{
+    color: wheat;
+
+}
+a:visited{
+    color: wheat;
+}
+a:hover,a:active{
+   color:darkred;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+th,tr,td{
+    border: 2px solid rgb(112, 111, 111);
+    padding: 8px 10px;   
+}
+
+li{
+    margin:10px 0 0 15px;
+}
+.footer{
+    margin-left:0px;
+    margin-top: 0.5rem;
+    height:7rem;
+    width:100%;
+ display:flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+th{
+    background-color:rgb(45, 44, 42);
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: bisque;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    height:2.5rem;
+    width:5rem;
+    border-radius:60px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+   
+
+
+
+h3{
+    color:#f7f7fd;
+}
+h4{
+    color:rgb(245, 175, 175);
+    margin-top: 10px;
+}
+
